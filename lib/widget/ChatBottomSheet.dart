@@ -52,12 +52,9 @@ class Chatbottomsheet extends StatelessWidget {
           ),
 
           Padding(
-            padding: const EdgeInsets.all(12),
+            padding: const EdgeInsets.all(10),
             child: Container(
-              decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                border: Border.all(color: Color(0xFF113953), width: 2),
-              ),
+              
               child: const Icon(Icons.send, color: Color(0xFF113953)),
             ),
           ),
